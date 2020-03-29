@@ -35,6 +35,11 @@ echo "...... set up github ssh below .........."
 echo "https://stackoverflow.com/questions/2643502/how-to-solve-permission-denied-publickey-error-when-using-git"
 echo "......^^^^^^^^ do this ^^^^^^ .........."
 
+brew tap heroku/brew && brew install heroku
+heroku autocomplete
+curl -sL https://firebase.tools | bash
+firebase login
+
 echo
 echo "Also: download VSCODE and 'shell command' in VSCODE"
 echo
